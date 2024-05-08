@@ -1,12 +1,10 @@
 import React from "react";
 import { Spell } from "../../../types";
 import "./style.css";
-
 interface SpellListProps {
   spells: Spell[];
   onSelectSpell: (spell: Spell) => void;
 }
-
 const SpellList: React.FC<SpellListProps> = ({ spells, onSelectSpell }) => {
   return (
     <div className="spell-list h-[600px] overflow-scroll">
@@ -24,5 +22,4 @@ const SpellList: React.FC<SpellListProps> = ({ spells, onSelectSpell }) => {
     </div>
   );
 };
-
 export default SpellList;
