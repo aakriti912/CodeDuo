@@ -34,7 +34,7 @@ A basic structure of the project, focusing on key directories and files.
 Follow these steps to set up the project locally:
 
 1. **Clone the Repository**
-   ```bash
+   ```bash uploaded all files in master branch
    git clone <repository-url>
    cd <project-name>
    npm install  # or yarn install
