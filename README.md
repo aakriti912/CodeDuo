@@ -1,0 +1,2 @@
+# CodeDuo
+Spell list, details
